@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+    <title>Kartik Technologies</title>
+    <link rel="icon" href="Logo 4.jpg" type="image/x-icon">
+</head>
+
+<style>
+    #nav-logo {
+        width: 50%;
+    }
+
+    .navbar-nav {
+        margin-left: auto;
+    }
+
+    .navbar {
+        background-color: rgba(143, 153, 155, 0.491);
+    }
+
+    .nav-link {
+        color: rgb(27, 26, 27);
+    }
+
+    .nav-link:hover {
+        color: rgba(127, 21, 255, 0.895);
+        text-decoration: underline;
+        transform: scale(1.1);
+    }
+
+
+    @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+    #fields {
+        background-color: white;
+    }
+
+    #illustration {
+        width: 30%;
+        float: right;
+    }
+
+    .container-fluid {
+        overflow: hidden;
+        margin-top: 250px;
+        background: rgba(143, 153, 155, 0.491);
+        color: rgba(0, 0, 0, 0.927);
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    small {
+        font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important;
+    }
+
+    .bold-text {
+        color: #0b0b0ba3 !important;
+    }
+
+
+    .mt-55 {
+        margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important;
+    }
+
+
+    h3 {
+        font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important;
+    }
+
+    .social {
+        font-size: 21px !important;
+        text-decoration-color: #0b0b0ba3;
+    }
+
+    .rights {
+        font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important;
+    }
+
+    #introduction {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #introbody1 {
+        font-family: lucida Impact;
+    }
+
+    #hello {
+        font-family: lucida Impact;
+    }
+
+    #mainbody {
+        background-color: white;
+        padding-top: 10px;
+    }
+
+    #top {
+        background-color: white;
+    }
+
+    #connect{
+        padding: auto;
+    }
+
+    #socialicons {
+        /* background: rgba(70, 71, 71, 0.97); */
+        background: rgba(143, 153, 155, 0.491);
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    #socialicons a {
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        border-right: 1px solid #70726F;
+        transition: all .5s ease;
+    }
+
+    #socialicons a:first-child {
+        border-left: 1px solid #70726F;
+    }
+
+    #facebook{
+        background-color: #07a1cc;
+    }
+    #facebook :hover{
+        transform: scale(1.5);
+    }
+
+    #twitter{
+        background-color:#00acee ;
+    }
+    #twitter :hover{
+        transform: scale(1.5);
+    }
+
+    #insta{
+        background-color :#f12d68;
+    }
+    #insta :hover{
+        transform: scale(1.5);
+    }
+
+    #linkedin{
+        background-color:#007bb5;
+    }
+    #linkedin :hover{
+        transform: scale(1.5);
+    }
+
+</style>
+
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <!-- To change color of navbar input this inside navbar-light bg-light -->
+        <a class="navbar-brand" href="#"><img id="nav-logo" src="Logo 5.png" alt="Kartik Technology Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="jumbotron" id="top">
+        <div class="container">
+            <h1 class="display-3" id="hello"><b>Hello & Welcome</b></h1>
+            <h2 id="introduction">INTRODUCTION</h2>
+            <p class="text-justify" id="introbody1"><b>Kartik Technologies</b> is a leading web and app development, and
+                digital marketing
+                agency located in Ranchi,
+                Jharkhand. We pride ourselves on delivering innovative and high-quality solutions to our clients,
+                catering
+                to their
+                diverse technological needs. Our team of experienced professionals is committed to providing exceptional
+                services, be
+                it web app development, android app development, fintech platforms, analytics, graphics, SEO, video
+                production, or
+                expertise in PHP and Java. With a focus on excellence, we have garnered a reputation for delivering
+                reliable
+                and
+                cutting-edge solutions to businesses of all sizes.</p>
+
+        </div>
+    </div>
+
+    <main role="main">
+        <div class="container container-fluid marketing mt-0" id="mainbody">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="rounded-circle border" src="webdev.png"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        alt="Generic placeholder image" width="140" height="140">
+                    <h2>Web Development</h2>
+                    <p class="text-justify">At Kartik Technologies, we specialize in comprehensive web development
+                        services
+                        tailored to your business. Our
+                        experienced team crafts responsive, visually striking websites that ensure a seamless user
+                        experience across devices.
+                        From custom designs and e-commerce solutions to user-friendly content management systems, we
+                        optimize for performance,
+                        security, and SEO. With us, your website isn't just built—it's a dynamic online asset that grows
+                        with your business,
+                        supported by our ongoing maintenance and expertise.</p>
+                    <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="rounded-circle border" src="appdev.jpeg"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        alt="Generic placeholder image" width="140" height="140">
+                    <h2>App Development</h2>
+                    <p class="text-justify">At Kartik Technologies, we excel in creating innovative Android app
+                        solutions
+                        that cater to your business's unique
+                        needs. Our skilled team of developers combines creativity and technical expertise to build
+                        user-friendly and
+                        feature-rich applications that engage your audience. From concept to deployment, we focus on
+                        delivering seamless user
+                        experiences, incorporating the latest industry trends and technologies. With our Android app
+                        development services,
+                        you'll have a powerful tool to connect with your users, enhance brand loyalty, and drive
+                        business
+                        growth.</p>
+                    <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 ">
+                    <img class="rounded-circle border mx-auto" src="digitalmarkt.png"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        alt="Generic placeholder image" width="140" height="140">
+                    <h2>Digital Marketing</h2>
+                    <p class="text-justify">At Kartik Technologies, we offer dynamic digital marketing solutions that
+                        elevate your online presence. Our expert team
+                        crafts data-driven strategies, leveraging SEO, social media, and content marketing to boost your
+                        brand visibility. With
+                        tailored campaigns, we target your audience effectively, driving traffic and conversions. From
+                        optimizing your website's
+                        performance to expanding your reach across platforms, our digital marketing services are
+                        designed to
+                        enhance engagement,
+                        foster customer loyalty, and amplify your business success.</p>
+
+
+                    <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <h2 style="font-family: 'Times New Roman', Times, serif; "><strong>Why to choose us :</strong></h2>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">EXPERTISE<span class="text-muted"> Of Years</span></h2>
+                    <p class="lead text-justify">With years of experience in the industry, our team possesses the
+                        expertise
+                        and skills required to
+                        deliver top-notch solutions tailored to your unique needs.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-fluid mx-auto float-lg-right" data-src="holder.js/500x500/auto"
+                        src="expertise2.gif" width="50%" alt="Generic placeholder image">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">QUALITY<span class="text-muted"> Unquestionable</span></h2>
+                    <p class="lead text-justify">We are committed to providing high-quality services, adhering to
+                        industry
+                        best practices and
+                        maintaining stringent quality standards.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="quality.gif"
+                        width="50%" alt="Generic placeholder image">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">CLIENT<span class="text-muted"> Centric Approach</span></h2>
+                    <p class="lead text-justify">Our clients are at the core of everything we do. We take the time to
+                        understand your
+                        goals and vision, ensuring that our solutions align with your business objectives.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-fluid mx-auto float-lg-right" data-src="holder.js/500x500/auto"
+                        src="clientcentric.gif" width="50%" alt="Generic placeholder image">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">INNOVATION<span class="text-muted"> Empowering Tomorrow</span></h2>
+                    <p class="lead text-justify">We are committed to providing high-quality services, adhering to
+                        industry
+                        best practices and
+                        maintaining stringent quality standards.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
+                        src="innovation.gif" width="50%" alt="Generic placeholder image">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">TIMELY DELIVER<span class="text-muted"> Trust Beyond
+                            Expectation</span>
+                    </h2>
+                    <p class="lead text-justify">Embracing innovation and the latest technologies, we constantly push
+                        the
+                        boundaries to deliver
+                        cutting-edge solutions that give you a competitive edge.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-fluid mx-auto float-lg-right" data-src="holder.js/500x500/auto"
+                        src="timelydeliver.gif" width="50%" alt="Generic placeholder image">
+                </div>
+            </div>
+        </div>
+</body>
+
+<footer>
+    <div class="container-fluid pb-0 mb-0 justify-content-center text-dark mt-5">
+        <div class="row my-5 justify-content-center py-5">
+            <div class="col-11">
+                <div class="row ">
+                    <div class="col-xl-8 col-md-4 col-sm-4 col-12   my-auto mx-auto a">
+                        <h3 class="text-muted mb-md-0 mb-5 bold-text"><a href="#"><img id="nav-logo" src="Logo 5.png"
+                                    alt="Kartik Technology Logo"></a></h3>
+                    </div>
+                    <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                        <h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
+                        <ul class="list-unstyled">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                        <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5"><b>ADDRESS</b></h6>
+                        <p class="mb-1">Kartik Technologies
+                            <br>3rd Floor,
+                            <br>Gayways House,
+                            <br>Main Road, Ranchi
+                            <br>834001
+                        </p>
+                    </div>
+                </div>
+
+                <!-- <div class="row">
+                    <div class="col-xl-8 col-md-4 col-sm-4 col-auto  my-md-0 mt-5 order-sm-1 order-3 align-self-end">
+                        <small class="rights"><span>&#174;</span>Kartik Technology All Rights Reserved.</small>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="m-1" id="socialicons">
+        <h4 id="connect">Connect with us</h4><br>
+        <a id="facebook" class="border" href="#"><i class="fa fa-facebook"></i></a>
+        <a id="twitter" class="border" href="#"><i class="fa fa-twitter"></i></a>
+        <a id="insta" class="border" href="#"><i class="fa fa-instagram"></i></a>
+        <a id="linkedin" class="border" href="#"><i class="fa fa-linkedin"></i></a>
+    </div>
+</footer>
+
+</html>
